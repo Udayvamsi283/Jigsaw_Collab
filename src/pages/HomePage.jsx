@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="min-vh-100 d-flex flex-column">
       <Navbar />
-      <div className="container flex-grow-1 d-flex align-items-center py-5">
+      <div className="container flex-grow-1 d-flex align-items-center">
         <div className="row align-items-center">
           <div className="col-md-6 py-5">
             <div className="position-relative">

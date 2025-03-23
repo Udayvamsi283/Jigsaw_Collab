@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg py-3">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <img src={logo} alt="Jigsaw Collab Logo" width="40" height="40" />
-          <span className="fw-bold">Jigsaw Collab</span>
+          <img src={logo} alt="Jigsaw Collab Logo" width="35" height="35" style={{marginRight:10}} />
+          <span className="fw-bold fs-3">Jigsaw Collab</span>
         </Link>
         <button
           className="navbar-toggler"
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">
+              <Link className="nav-link fs-4" to="/dashboard">
                 Dashboard
               </Link>
             </li>
