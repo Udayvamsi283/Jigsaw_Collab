@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import collaborationImage from "../assets/collaboration.webp";
+import collaborationImage from "../assets/collaboration.jpg";
 const HomePage = () => {
   return (
     <div className="min-vh-100 d-flex flex-column">
